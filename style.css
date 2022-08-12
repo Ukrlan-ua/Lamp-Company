@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato&family=Nunito+Sans&display=swap');
+
+img{
+    background-color: transparent;
+}
+
+*{
+    margin: auto;
+    padding: 0;
+    color: #fff;
+}
+
+.all{
+    display: block;
+    margin: auto;
+}
+
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #24204a;
+
+}
+
+button{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 8px;
+}
+p{
+    font-size: 16px;
+    color: #8E88C1;
+}
+
+.header{
+padding: 38px 0;
+display: flex;
+position: fixed;
+background-color: #071341;
+z-index: 2;
+left: 0;
+right: 0;
+}
+
+.header h3{
+    /* margin-left: 0; */
+    font-size: 18px;
+    max-width: 1170px;
+}
+
+.navigation{
+    /* margin-right: 0; */
+    max-width: 1170px;
+}
+
+.navigation a{
+    margin-right: 60px;
+    font-size: 16px;
+    color: #D9D9D9;
+}
+
+a:hover{
+    color: #EAEAEA;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navigation button{
+    margin-left: 40px;
+    background-color: #4B4864;
+    width: 153px;
+    height: 46px;
+    border: 1px solid #8E88C1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+}
+
+
+.main{
+    max-width: 1170px;
+    margin-top: 180px;
+    margin-bottom: 46px;
+    display: flex;
+    height: 506px;
+
+}
+
+.description{
+    margin-top: 55px;
+    height: 393px;
+    max-width: 573px;
+    margin-left: 0;
+}
+
+.mark{
+    background-color: #4B4864;
+    color: #8E88C1;
+    border-radius: 8px;
+    max-width: fit-content;
+    margin-left: 0;
+    padding: 5px 18px;
+    margin-bottom: 38px;
+}
+
+.description h1{
+    font-size: 36px;
+
+}
+
+.description p{
+    margin-top: 27px;
+    margin-bottom: 75px;
+}
+
+.btn{
+    margin-left: 7px;
+}
+
+.shape{
+    color: transparent;
+    padding: 17px 54px;
+    border: 1px solid #30345A;
+    max-width: fit-content;
+    border-radius: 8px;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.btn button{
+    background-color: #3F50E7;
+    color: #fff;
+    padding: 18px 55px;
+    border: 0;
+    font-size: 16px;
+    box-shadow: 4px 4px 8px rgba(63, 80, 231, 0.75);
+    position: relative;
+    bottom: 67px;
+    right: 7px;
+}
+
+ .pic img{
+    display: block;
+    background-color: transparent;
+    margin-right: -40px;
+ }
+
+ .lay1{
+    position: relative;
+ }
+
+ .lay2{
+    position: relative;
+    bottom: 510px;
+ }
+
+ .lay3{
+    position: relative;
+    bottom: 965px;
+    right: 15px;
+}
+ 
+.about{
+    height: 700px;
+    background-color: #071341;
+}
+
+.projects{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    display: flex;
+    max-width: 1170px; 
+}
+
+.project{
+    display: flex;
+    width: 176px;
+    background-color: transparent;
+    height: 56px;
+}
+
+.projectpic{
+    margin-left: 0;
+    height: 56px;
+    background-color: transparent;
+}
+
+.oshape{
+    background-color: #FF6853;
+    border-radius: 8px;
+    height: 56px;
+    width: 56px;
+}
+
+.pshape{
+    background-color: #FF537C;
+    border-radius: 8px;
+    height: 56px;
+    width: 56px;
+}
+
+.mshape{
+    background-color: #80D2C4;
+    border-radius: 8px;
+    height: 56px;
+    width: 56px;
+}
+
+.bshape{
+    background-color: #3F50E7;
+    border-radius: 8px;
+    height: 56px;
+    width: 56px;
+}
+
+.gshape{
+    background-color: #95CB7C;
+    border-radius: 8px;
+    height: 56px;
+    width: 56px;
+}
+
+.projectpic img{
+    position: relative;
+    background-color: transparent;
+    bottom: 44px;
+    padding-left: 12px;
+}
+
+.projectinfo{
+    margin: auto;
+    text-align: left;
+    margin-left: 0;
+    background-color: transparent;
+    height: 56px;
+    margin: 6px 40px 6px 0;
+}
+
+.projecttitle p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline;
+}
+
+.about h1{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    max-width: 1170px;
+}
+
+.about p{
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 60px;
+}
+
+.cards{
+    background-color: transparent;
+    max-width: 1170px;
+    display: flex;
+}
+
+.back{
+    background-color: #fff;
+    height: 300px;
+    width: 208px;
+    border-radius: 8px;
+}
+
+.cardtitle{
+    position: relative;
+    bottom: 130px;
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+}
+
+.cardtitle img{
+height: 52px;
+width: 52px;
+margin-left: 15px;
+}
+
+.cardtitle p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+}
+
+.onep{
+    position: relative;
+    bottom: 50px;
+}
+
+.back button{
+    position: relative;
+    bottom: 42px;
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #3F50E7;
+    margin-left: 63px;
+}
+
+.template{
+    border: #8E88C1 2px solid;
+    border-radius: 8px;
+    height: 206px;
+    width: 206px;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+.template img{
+    height: 52px;
+    width: 52px;
+    display: block;
+    margin: 42px auto 20px auto;
+}
+
+.questions{
+    height: 615px;
+}
+
+.questions h1{
+    text-align: center;
+    margin-top: 84px;
+    max-width: 900px;
+    margin-bottom: 44px;
+}
+
+.form{
+    background-color: #4B4864;
+    width: 377px;
+    border-radius: 8px;
+    padding: 36px;
+    position: relative;
+    bottom: 440px;
+    left: 364px;
+}
+
+.form h2{
+    font-size: 26px;
+    background-color: transparent;
+}
+
+.form p{
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.form input{
+    width: 377px;
+    height: 42px;
+    margin-bottom: 16px;
+    border: 0;
+    border-radius: 8px;
+    text-indent: 15px;
+    background-color: #646081;
+}
+
+input::placeholder{
+    color: #8E88C1;
+    font-size: 14px;
+}
+
+.form button{
+    height: 40px;
+    width: 126px;
+    margin-right: 0;
+    border: 0;
+    background-color: #3F50E7;
+    display: block;
+}
+
+.questions img{
+display: block;
+}
+
+.footer{
+    background-color: #071341;
+    display: flex;
+    padding-top: 56px;
+    padding-bottom: 60px;
+}
+
+.blog{
+    background-color: transparent;
+    display: grid;
+    margin-top: 0;
+}
+
+.blog h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    background-color: transparent;
+}
+
+.blog a{
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 14px;
+    margin-left: 0;
+    background-color: transparent;
+}
+
+.media{
+    margin-top: 0;
+    background-color: transparent;
+
+}
+
+.media h3{
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.sm{
+    background-color: transparent;;
+}
+
+.sm a{
+    background-color: transparent;
+    width: 18px;
+    height: 18px;
+    margin-right: 14px;
+}
+
+.rights p{
+    background-color: #071341;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
